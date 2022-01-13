@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>
+        Genuine leather shoes. Stylish. Comfortable. Custom made.
+
+
+
+        – D'Cuero
+
+    </title>
+    <script defer src="js/menu.js"></script>
+    <script defer src="js/slider.js"></script>
+    <script defer src="js/carrusel.js"></script>
+    <!-- <script defer src="js/slider-productos.js"></script> -->
+    <script src="https://kit.fontawesome.com/0894a0420e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__promocion">
+            <p class="header__p">Envío GRATIS a partir del segundo par</p>
+        </div>
+        <div class="header__container">
+            <div class="header__logo">
+                <h1 class="header__h1">
+                    <a href="index.html" class="header__a">
+                        <img class="header__img"
+                            src="img/logo.png"
+                            alt="logo de D'cuero">
+                    </a>
+                </h1>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__ul">
+                    <li class="header__li-menu">Inicio</li>
+                    <li class="header__li-menu">Tienda</li>
+                    <li class="header__li">Nosotros<i class="fas fa-chevron-down"></i>
+                        <ul class="header__ul-nosotros">
+                            <li>Sobre nosotros</li>
+                            <li>Nuestros artesanos</li>
+                        </ul>
+                    </li>
+                    <li class="header__li-menu">Preguntas Frecuentes</li>
+                    <li class="header__li-menu">Contacto</li>
+                    <li class="header__li-menu">Tallas</li>
+                    <li class="header__li-menu">Blog</li>
+                </ul>
+            </nav>
+            <div class="header__icons">
+                <i class="fas fa-search"></i>
+                <i class="far fa-user"></i>
+                <i class="fas fa-shopping-bag"></i>
+                <span class="header__nav-bar" id="btnMenu"><i class="fas fa-bars"></i><i
+                        class="fas fa-times"></i></span>
+            </div>
+        </div>
+        <nav class="header__nav-responsive">
+            <ul class="header__ul-responsive" id="menu">
+                <li class="header__li-responsive">Inicio</li>
+                <li class="header__li-responsive">Tienda</li>
+                <li class="header__container-submenu">Nosotros <i class="fas fa-chevron-down"></i>
+                    <ul class="header__ul-submenu">
+                        <li>Sobre nosotros</li>
+                        <li>Nuestros artesanos</li>
+                    </ul>
+                </li>
+                <li class="header__li-responsive">Preguntas Frecuentes</li>
+                <li class="header__li-responsive">Contacto</li>
+                <li class="header__li-responsive">Tallas</li>
+                <li class="header__li-responsive">Blog</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="main__container">
+            <div class="main__slider" id="slider">
+                <div class="main__slider-div">
+                    <img class="main__slider-img"
+                        src="img/Black_Friday_Banner.png"
+                        alt="">
+                </div>
+                <div class="main__slider-div">
+                    <img class="main__slider-img"
+                        src="img/img-slide-1.jpg"
+                        alt="">
+                    <h2 class="main__slider-h2">Clásicos</h2>
+                    <p class="main__slider-p">Con un toque fresco y moderno.</p>
+                </div>
+                <div class="main__slider-div">
+                    <img class="main__slider-img"
+                        src="img/img-slide-2.jpg" alt="">
+                    <h2 class="main__slider-h2">Personalizados</h2>
+                    <p class="main__slider-p">Escoge el color, la suela y el tipo de cuero a tu gusto!</p>
+                </div>
+                <div class="main__slider-div">
+                    <img class="main__slider-img"
+                        src="img/img-slide-3.jpg" alt="">
+                    <h2 class="main__slider-h2">Acabados a mano</h2>
+                    <p class="main__slider-p">Apoya a artesanos locales con tu compra.</p>
+                </div>
+            </div>
+            <div class="main__btn main__btn-right" id="btn-right"><i class="fas fa-chevron-circle-right"></i></div>
+            <div class="main__btn main__btn-left" id="btn-left"><i class="fas fa-chevron-circle-left"></i></div>
+        </div>
+    </main>
+
+    <div class="carrusel">
+        <h2>PRODUCTOS DESTACADOS</h2>
+        <div class="carrusel__list" id="slick-list">
+            <div class="slick-arrow slick-prev" id="button-prev" data-button="button-prev" onclick="app.processingButton(event)">
+                <i class="fas fa-chevron-circle-left"></i>
+            </div>
+            <div class="slick-track" id="track">
+                <div class="slick">
+                    <div>
+                        <img src="img/zapato-1.jpg" alt="Image">
+                        <p>Botines de Cuero Corciano Toffee</p>
+                        <span>$75.00</span>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <img src="img/zapato-2.jpg" alt="Image">
+                        <p>Botines de Cuero Denzel</p>
+                        <span>$75.00</span>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <img src="img/zapato-3.jpg" alt="Image">
+                        <p>Botines de Cuero Florence chocolate</p>
+                        <span>$85.00</span>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <img src="img/zapato-4.jpg" alt="Image">
+                        <p>Botines de Cuero Orense café</p>
+                        <span>$75.00</span>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <img src="img/zapato-5.jpg" alt="Image">
+                        <p>Botines de Cuero Orense mocca</p>
+                        <span>$75.00</span>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <img src="img/zapato-6.jpg" alt="Image">
+                        <p>Botines de cuero para mujer Flora miel</p>
+                        <span>$70.00</span>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <img src="img/zapato-7.jpg" alt="Image">
+                        <p>Botines de cuero para mujer Trieste</p>
+                        <span>$70.00</span>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <img src="img/zapato-8.jpg" alt="Image">
+                        <p>Botines de Cuero Petro café</p>
+                        <span>$75.00</span>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <img src="img/zapato-9.jpg" alt="Image">
+                        <p>Mocasines de cuero para mujer Livia café</p>
+                        <span>$70.00</span>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <img src="img/zapato-10.jpg" alt="Image">
+                        <p>Zapatos de Cuero Arezzo negro</p>
+                        <span>$70.00</span>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <img src="img/zapato-11.jpg" alt="Image">
+                        <p>Zapatos oxford de suela para mujer Amanda café</p>
+                        <span>$70.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="slick-arrow slick-next" id="button-next" data-button="button-next" onclick="app.processingButton(event)">
+                <i class="fas fa-chevron-circle-right"></i>
+            </div>
+        </div>
+    </div>
+
+    <article class="nosotros">
+        <div class="nosotros__container">
+            <div class="nosotros__div-img">
+                <img class="nosotros__img"
+                    src="img/grupo.jpg"
+                    alt="">
+            </div>
+            <div class="nosotros__div-textBtn">
+                <h3 class="nosotros__h3">Somos un negocio sostenible</h3>
+                <p class="nosotros__p">- Zapatos hechos por artesanos ecuatorianos y madres de familia.</p>
+                <p class="nosotros__p">- Usamos cuero 100% natural y pegamentos orgánicos.</p>
+                <p class="nosotros__p">- Con tu compra nos ayudas a mejorar vidas.</p>
+                <button class="nosotros__btn">Más sobre nosotros</button>
+            </div>
+        </div>
+    </article>
+
+    <aside class="aside">
+        <div class="aside__container">
+            <h3 class="aside__h3">PREMIOS Y RECONOCIMIENTOS</h3>
+            <div class="aside__div">
+                <iframe class="aside__video" src="https://www.youtube.com/embed/1GobWi9HliM?rel=0&showinfo=0&vq=720"
+                    frameborder="0"></iframe>
+                <h3 class="aside__h3">US Embassy Quito</h3>
+                <p class="aside__p">En el 2017 la Embajada de Estados Unidos en Ecuador - <b>US Embassy Quito</b>, nos
+                    hizo este vídeo
+                    para compartir nuestra experiencia como becarios del programa YLAI - Young Leaders of the Americas
+                    Initiative. </p>
+            </div>
+            <div class="aside__div">
+                <iframe class="aside__video" src="https://www.youtube.com/embed/kXMR1wmEtt4?rel=0&showinfo=0&vq=720"
+                    frameborder="0"></iframe>
+                <h3 class="aside__h3">D'Cuero en #ShopSmall</h3>
+                <p class="aside__p">En Octubre 2020 fuimos seleccionados por el <b>Banco de Guayaquil</b> y su campaña
+                    #ShopSmallEC de
+                    #AmericanExpress entre los emprendimientos más destacados del país para grabar un vídeo promocional
+                    y contar nuestra historia.</p>
+            </div>
+        </div>
+    </aside>
+
+    <div class="reconocimiento">
+        <div class="reconocimiento__container">
+            <article class="reconocimiento__article">
+                <img class="reconocimiento__img"
+                    src="img/marca-1.jpg" alt="">
+                <h3 class="reconocimiento__h3">YLAI - Young Leaders of the Americas Initiative</h3>
+                <p class="reconocimiento__p">En 2016 fuimos seleccionados por el ex Presidente Barack Obama en el
+                    programa Jóvenes Líderes de las
+                    Américas (YLAI / <b>Young Leaders of the Americas Initiative</b> ) como uno de los 250
+                    emprendimientos
+                    más prometedores de América Latina y el Caribe.</p>
+            </article>
+            <article class="reconocimiento__article2">
+                <img class="reconocimiento__img"
+                    src="img/marca-2.jpg" alt="">
+                <h3 class="reconocimiento__h3">Laureate Global Fellows</h3>
+                <p class="reconocimiento__p">En 2018 fuimos seleccionados entre los 20 mejores emprendimientos del
+                    mundo! Conoce más de este
+                    programa
+                    auspiciado por: <b>Youth Action Net, Laureate Universities e International Youth Foundation.</b></p>
+            </article>
+        </div>
+    </div>
+
+    <div class="tendencias">
+        <div class="tendencias__negro">
+            <div class="tendencias__container">
+                <h2 class="tendencias__h3">Te interesan nuestros productos</h2>
+                <p class="tendencias__p">Revisa las últimas tendencias en nuestro</p>
+                <button class="tendencias__btn">CATÁLOGO D'CUERO</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="suscripcion">
+        <div class="suscripcion__container">
+            <form class="suscripcion__form">
+                <label for="correo" class="suscripcion__label">SUSCRÍBETE A NUESTRO BOLETÍN</label>
+                <p class="suscripcion__p">Sé el primero en enterarte de nuevos lanzamientos, colecciones y descuentos
+                    exclusivos.</p>
+                <input type="email" class="suscripcion__email" id="correo" name="correo"
+                    placeholder="DIRECCIÓN DE CORREO"><input type="submit" class="suscripcion__submit"
+                    value="SUSCRIBIR">
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <nav class="footer__nav">
+                <ul class="footer__ul">
+                    <li>Inicio</li>
+                    <li>Tienda</li>
+                    <li>Nosotros</li>
+                    <li>Contacto</li>
+                    <li>Blog</li>
+                </ul>
+            </nav>
+            <div class="footer__links">
+                <ul class="footer__ul">
+                    <li>Tallas</li>
+                    <li>Buscar</li>
+                    <li>Preguntas Frecuentes</li>
+                    <li>Términos del servicio</li>
+                    <li>Política de rembolso</li>
+                </ul>
+            </div>
+            <form class="footer__form">
+                <label for="correo2" class="footer__label">Join our mailing list</label>
+                <input type="email" class="footer__email" id="correo2" name="correo2"
+                    placeholder="DIRECCIÓN DE CORREO"><input type="submit" class="footer__submit" value="SUSCRIBIR">
+            </form>
+            <div class="footer__redesSociales">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+            <div class="footer__formasPago">
+                <i class="fab fa-cc-amex"></i>
+                <i class="fab fa-cc-diners-club"></i>
+                <i class="fab fa-cc-discover"></i>
+                <i class="fab fa-cc-jcb"></i>
+                <i class="fab fa-cc-mastercard"></i>
+                <i class="fab fa-cc-paypal"></i>
+                <i class="fab fa-cc-visa"></i>
+            </div>
+            <div class="footer__info">
+                <small>© 2021, <span>D'Cuero</span></small>
+                <small>es.shopify.com</small>
+            </div>
+        </div>
+    </footer>
+
+    <img class="whatsapp" src="https://cdn.shopify.com/s/files/1/0033/3538/9233/files/504.png" alt="">
+
+</body>
+
+</html>
